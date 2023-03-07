@@ -1,0 +1,29 @@
+.box {
+    background-color: green;
+    padding: 1rem 0;
+}
+
+.hello {
+    display: grid;
+    place-items: center;
+}
+
+.box .hello {
+    width: clamp (200px, 50%, 300px)
+}
+
+.body {
+    border: solid blue 4px;
+    padding: 2rem
+}
+
+.container {
+    border: solid yellow 4px;
+    padding: 1rem;
+}
+
+.body, .container {
+    margin: 0 auto;
+    width: clamp (200px, 50%, 300px)
+
+}
